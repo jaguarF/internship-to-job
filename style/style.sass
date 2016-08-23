@@ -29,7 +29,7 @@
 	border-width: 0 10px
 
 section#main
-	margin: 30px 20%
+	margin: 10px 20%
 	max-width: 1280px
 	.first_col
 		padding-right: 40px
@@ -42,6 +42,7 @@ section#main
 		svg 
 			width: 100%
 			min-height: 200px
+			max-height: 300px
 		text-align: center
 		text-transform: uppercase
 		h2
@@ -137,6 +138,7 @@ section#main
 			&:after
 				@extend .horiz_line
 		ul	
+			margin-top: -10px
 			margin-left: 10px
 			li
 
@@ -153,6 +155,7 @@ section#main
 					text-transform: uppercase
 					@extend .regular				
 					span
+						line-height: 0.8
 						text-transform: none
 					.li_header
 						@extend .bold
@@ -180,6 +183,7 @@ section#main
 			&:after
 				@extend .horiz_line
 		ul	
+			margin-top: -10px
 			margin-left: 10px
 			li
 
@@ -189,13 +193,14 @@ section#main
 				.block
 					display: block
 					width: 100%
-					margin-top: -50px
+					margin-top: -52px
 					margin-bottom: -30px
 				h4
 					line-height: 0.7
 					text-transform: uppercase
 					@extend .regular				
 					span
+						line-height: 0.8
 						text-transform: none
 					.li_header
 						@extend .bold
@@ -246,4 +251,11 @@ section#main
 				.ae
 					width: 65%
 				.ind
-					width: 60%				
+					width: 60%
+@media screen and (min-width: 320px) and (max-width: 767px)
+	section#main
+		margin: 0px		
+		.first_col
+			padding: 0 15px
+		.second_col
+			padding: 0 15px
