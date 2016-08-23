@@ -1,0 +1,191 @@
+.bold, section#main .photo h1, section#main .photo h4, section#main .profile h3, section#main .contact h3, section#main .contact .row .col-md-3, section#main .skills h3, section#main .education h3, section#main .education ul li h4 .li_header, section#main .expirience h3, section#main .expirience ul li h4 .li_header, section#main .software h3 {
+  font-family: "MyriadProBold"; }
+
+.light, section#main .photo h2 {
+  font-family: "MyriadProLightSemiExtended_31641"; }
+
+.regular, section#main .profile p, section#main .contact .row .col-md-9, section#main .skills .row, section#main .education ul li h4, section#main .education ul li .text, section#main .expirience ul li h4, section#main .expirience ul li .text, section#main .software .row {
+  font-family: "MyriadProRegular"; }
+
+.icon, section#main .profile h3:before, section#main .contact h3:before, section#main .skills h3:before, section#main .education h3:before, section#main .expirience h3:before, section#main .software h3:before {
+  display: inline-block;
+  content: "";
+  width: 60px;
+  height: 60px;
+  background: url("../icons/icons.png") no-repeat center center;
+  vertical-align: middle;
+  margin-right: 5px;
+  background-size: cover;
+  background-origin: border-box; }
+
+.horiz_line, section#main .profile h3:after, section#main .contact h3:after, section#main .skills h3:after, section#main .education h3:after, section#main .expirience h3:after, section#main .software h3:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  height: 6px;
+  width: 100%;
+  background: #3d6cb0;
+  margin-right: -100%;
+  border: solid #fff;
+  border-width: 0 10px; }
+
+section#main {
+  margin: 30px 20%;
+  max-width: 1280px; }
+  section#main .first_col {
+    padding-right: 40px; }
+  section#main .second_col {
+    padding-left: 40px; }
+  section#main .photo {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase; }
+    section#main .photo svg {
+      width: 100%;
+      min-height: 200px; }
+    section#main .photo h1 {
+      margin-top: -15px;
+      margin-bottom: -8px; }
+  section#main .profile h3 {
+    overflow: hidden;
+    color: #3d6cb0;
+    background: #fff;
+    text-transform: uppercase; }
+    section#main .profile h3:before {
+      background-position: 0px 0px; }
+  section#main .profile p {
+    font-size: 12px;
+    line-height: 1.1; }
+  section#main .contact h3 {
+    overflow: hidden;
+    color: #3d6cb0;
+    text-transform: uppercase; }
+    section#main .contact h3:before {
+      background-position: -70px 0px; }
+  section#main .contact .row {
+    margin: 20px 0px; }
+    section#main .contact .row .col-md-3 {
+      padding-left: 0;
+      color: #3d6cb0;
+      text-transform: uppercase; }
+  section#main .skills h3 {
+    overflow: hidden;
+    color: #3d6cb0;
+    text-transform: uppercase;
+    margin-bottom: 0; }
+    section#main .skills h3:before {
+      background-position: -145px 0px; }
+  section#main .skills .row {
+    text-align: center; }
+    section#main .skills .row h4 {
+      margin: 0;
+      text-transform: uppercase; }
+    section#main .skills .row .skills-dots {
+      padding: 8px 0; }
+      section#main .skills .row .skills-dots li {
+        display: inline-block;
+        padding: 0; }
+      section#main .skills .row .skills-dots .dots {
+        display: block;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: #3d6cb0;
+        margin-right: 3px; }
+      section#main .skills .row .skills-dots .dots-off {
+        background: #e6e6e6; }
+  section#main .education h3 {
+    overflow: hidden;
+    color: #3d6cb0;
+    text-transform: uppercase;
+    margin-bottom: 0; }
+    section#main .education h3:before {
+      background-position: -220px 0px; }
+  section#main .education ul {
+    margin-left: 10px; }
+    section#main .education ul li {
+      font-size: 5rem; }
+      section#main .education ul li .invis {
+        visibility: hidden; }
+      section#main .education ul li .block {
+        display: block;
+        width: 100%;
+        margin-top: -52px;
+        margin-bottom: -30px; }
+      section#main .education ul li h4 {
+        line-height: 0.7;
+        text-transform: uppercase; }
+        section#main .education ul li h4 span {
+          text-transform: none; }
+        section#main .education ul li h4 .li_header {
+          text-transform: uppercase;
+          color: #3d6cb0; }
+      section#main .education ul li .text {
+        font-size: 12px;
+        line-height: 1.1; }
+      section#main .education ul li:last-child .block {
+        margin-bottom: 0px; }
+  section#main .expirience h3 {
+    overflow: hidden;
+    color: #3d6cb0;
+    text-transform: uppercase;
+    margin-bottom: 0; }
+    section#main .expirience h3:before {
+      background-position: -303px 0px; }
+  section#main .expirience ul {
+    margin-left: 10px; }
+    section#main .expirience ul li {
+      font-size: 5rem; }
+      section#main .expirience ul li .invis {
+        visibility: hidden; }
+      section#main .expirience ul li .block {
+        display: block;
+        width: 100%;
+        margin-top: -50px;
+        margin-bottom: -30px; }
+      section#main .expirience ul li h4 {
+        line-height: 0.7;
+        text-transform: uppercase; }
+        section#main .expirience ul li h4 span {
+          text-transform: none; }
+        section#main .expirience ul li h4 .li_header {
+          text-transform: uppercase; }
+      section#main .expirience ul li .text {
+        font-size: 12px;
+        line-height: 1.1; }
+      section#main .expirience ul li:last-child .block {
+        margin-bottom: 0px; }
+  section#main .software h3 {
+    overflow: hidden;
+    color: #3d6cb0;
+    text-transform: uppercase;
+    margin-bottom: 0; }
+    section#main .software h3:before {
+      background-position: -387px 0px; }
+  section#main .software .row {
+    padding: 2px 0px;
+    text-transform: uppercase; }
+    section#main .software .row .line-gray {
+      display: block;
+      width: 100%;
+      height: 15px;
+      background: #e6e6e6;
+      margin: 10px 0; }
+      section#main .software .row .line-gray .line-blue {
+        float: left;
+        margin-left: 0;
+        width: 90%;
+        height: 15px;
+        background: #3d6cb0; }
+      section#main .software .row .line-gray .dream {
+        width: 80%; }
+      section#main .software .row .line-gray .ill {
+        width: 70%; }
+      section#main .software .row .line-gray .ae {
+        width: 65%; }
+      section#main .software .row .line-gray .ind {
+        width: 60%; }
+
+/*# sourceMappingURL=style.css.map */

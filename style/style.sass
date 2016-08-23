@@ -1,0 +1,249 @@
+.bold
+	font-family: 'MyriadProBold'
+.light 
+	font-family: 'MyriadProLightSemiExtended_31641'
+.regular
+	font-family: 'MyriadProRegular'
+
+.icon
+	display: inline-block
+	content: ""
+	width: 60px
+	height: 60px
+	background: url("../icons/icons.png") no-repeat center center
+	vertical-align: middle
+	margin-right: 5px
+	background-size: cover
+	background-origin: border-box
+
+.horiz_line
+	content: ''
+	display: inline-block
+	vertical-align: middle
+	box-sizing: border-box
+	height: 6px
+	width: 100%
+	background: #3d6cb0
+	margin-right: -100%
+	border: solid #fff
+	border-width: 0 10px
+
+section#main
+	margin: 30px 20%
+	max-width: 1280px
+	.first_col
+		padding-right: 40px
+	.second_col
+		padding-left: 40px
+
+	.photo
+		display: block
+		width: 100%
+		svg 
+			width: 100%
+			min-height: 200px
+		text-align: center
+		text-transform: uppercase
+		h2
+			@extend .light
+		h1
+			margin-top: -15px
+			margin-bottom: -8px
+			@extend .bold
+		h4
+			@extend .bold
+
+	.profile
+		h3
+			overflow: hidden				
+			@extend .bold
+			color: #3d6cb0
+			background: #fff
+			text-transform: uppercase
+			&:before
+				@extend .icon
+				background-position: 0px 0px
+			&:after
+				@extend .horiz_line					
+		p
+			@extend .regular
+			font-size: 12px
+			line-height: 1.1
+
+	.contact
+		h3
+			overflow: hidden
+			@extend .bold
+			color: #3d6cb0
+			text-transform: uppercase
+			&:before
+				@extend .icon
+				background-position: -70px 0px
+			&:after
+				@extend .horiz_line		
+		.row
+			margin: 20px 0px
+			.col-md-3
+				padding-left: 0
+				@extend .bold
+				color: #3d6cb0
+				text-transform: uppercase
+			.col-md-9
+				@extend .regular
+
+	.skills
+		h3
+			overflow: hidden
+			@extend .bold
+			color: #3d6cb0
+			text-transform: uppercase
+			margin-bottom: 0
+			&:before
+				@extend .icon
+				background-position: -145px 0px
+			&:after
+				@extend .horiz_line		
+		.row
+			text-align: center			
+			@extend .regular
+			h4
+				margin: 0
+				text-transform: uppercase
+			.skills-dots 
+				padding: 8px 0
+				li
+					display: inline-block
+					padding: 0
+				.dots  
+					display: block
+					width: 15px
+					height: 15px
+					border-radius: 50%
+					background: rgb(61,108,176)
+					margin-right: 3px
+				.dots-off 
+					background: #e6e6e6
+
+	.education			
+		h3
+			overflow: hidden
+			@extend .bold
+			color: #3d6cb0
+			text-transform: uppercase
+			margin-bottom: 0
+			&:before
+				@extend .icon
+				background-position: -220px 0px
+			&:after
+				@extend .horiz_line
+		ul	
+			margin-left: 10px
+			li
+
+				font-size: 5rem
+				.invis
+					visibility: hidden
+				.block
+					display: block
+					width: 100%
+					margin-top: -52px
+					margin-bottom: -30px
+				h4
+					line-height: 0.7
+					text-transform: uppercase
+					@extend .regular				
+					span
+						text-transform: none
+					.li_header
+						@extend .bold
+						text-transform: uppercase
+						color: #3d6cb0
+				.text
+					font-size: 12px
+					@extend .regular
+					line-height: 1.1
+				&:last-child
+					.block
+						margin-bottom: 0px
+
+
+	.expirience
+		h3
+			overflow: hidden
+			@extend .bold
+			color: #3d6cb0
+			text-transform: uppercase
+			margin-bottom: 0
+			&:before
+				@extend .icon
+				background-position: -303px 0px
+			&:after
+				@extend .horiz_line
+		ul	
+			margin-left: 10px
+			li
+
+				font-size: 5rem
+				.invis
+					visibility: hidden
+				.block
+					display: block
+					width: 100%
+					margin-top: -50px
+					margin-bottom: -30px
+				h4
+					line-height: 0.7
+					text-transform: uppercase
+					@extend .regular				
+					span
+						text-transform: none
+					.li_header
+						@extend .bold
+						text-transform: uppercase
+						
+				.text
+					font-size: 12px
+					@extend .regular
+					line-height: 1.1
+				&:last-child
+					.block
+						margin-bottom: 0px
+	
+	.software
+		h3
+			overflow: hidden
+			@extend .bold
+			color: #3d6cb0
+			text-transform: uppercase
+			margin-bottom: 0
+			&:before
+				@extend .icon
+				background-position: -387px 0px
+			&:after
+				@extend .horiz_line
+		.row
+			padding: 2px 0px
+			
+			text-transform: uppercase
+			@extend .regular
+			.line-gray
+				display: block
+				width: 100%
+				height: 15px
+				background: #e6e6e6
+				margin: 10px 0
+
+				.line-blue
+					float: left
+					margin-left: 0
+					width: 90%
+					height: 15px
+					background: #3d6cb0
+				.dream
+					width: 80%
+				.ill
+					width: 70%
+				.ae
+					width: 65%
+				.ind
+					width: 60%				
